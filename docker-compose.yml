@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    jupyter:
+        build: .
+        image: tst_airflow
+        ports:
+            - '8888:8888'
+            - '8080:8080'
+        environment:
+            JUPYTER_ENABLE_LAB: 'yes'
+        volumes:
+            - ./:/project
