@@ -1,5 +1,7 @@
 # exclude airflow home
-home/
+home/*
+!home/dags
+!home/dags/**
 
 # exclude directory for outputs
 out/

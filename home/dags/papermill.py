@@ -28,7 +28,6 @@ run_ntb = BashOperator(
     task_id='run_ntb',
     depends_on_past=False,
     bash_command=templated_command,
-#    params={'my_param': 'Parameter I passed in'},
     dag=dag)
 
 #run_this = PapermillOperator(
