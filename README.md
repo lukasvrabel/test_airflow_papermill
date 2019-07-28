@@ -6,6 +6,7 @@ Some files:
 - `Dockerfile` describes simple image with jupter server and papermill
 - `docker-compose.yml` contains build instructions, run `$ docker-compose build` to build the image
 - `run_pm_from_docker.sh` then runs the papermill built image 
+- `run_pm_local.sh` run papermill locally
 
 Directories:
 - `out/` - dir for papermill to output notebooks; contains some examples
